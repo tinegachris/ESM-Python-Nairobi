@@ -1,0 +1,47 @@
+# Build system configuration
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# Project metadata
+[tool.poetry]
+name = "energy-system-modelling-nairobi"
+version = "0.1.0"
+description = "Documentation for the Energy System Modelling session at Python Nairobi User Group"
+readme = "README.md"
+authors = ["Chrispine Tinega <hello@chrispinetinega.com>"]
+license = "MIT"
+repository = "https://github.com/tinegachris/ESM-Python-Nairobi"
+homepage = "https://chrispinetinega.com/ESM-Python-Nairobi"
+keywords = ["energy", "system", "modelling", "nairobi", "python"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+package-mode = false
+
+# Project dependencies
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+pypsa = "^0.33.2"
+pandas = "^2.2.3"
+matplotlib = "^3.10.1"
+cartopy = "^0.24.1"
+numpy = "1.26.4"
+plotly = "^6.0.1"
+
+# Development dependencies
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+sphinx = "^8.2.3"
+ruff = "^0.11.2"
+black = "^25.1.0"
+pre-commit = "^4.2.0"
+ipykernel = "^6.29.5"
+
+# Ruff configuration
+[tool.ruff]
+line-length = 88
