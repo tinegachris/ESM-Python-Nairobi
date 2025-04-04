@@ -1,10 +1,12 @@
 anyio==4.9.0
 asttokens==3.0.0
+attrs==25.3.0
 Bottleneck==1.4.2
 build==1.2.2.post1
 CacheControl==0.14.2
 Cartopy==0.24.1
 certifi==2025.1.31
+cffi==1.17.1
 cftime==1.6.4.post1
 charset-normalizer==3.4.1
 cleo==2.1.0
@@ -14,6 +16,7 @@ colorama==0.4.6
 comm==0.2.2
 contourpy==1.3.1
 crashtest==0.4.1
+cryptography==44.0.2
 cycler==0.12.1
 dask==2025.3.0
 debugpy==1.8.13
@@ -42,6 +45,8 @@ jaraco.classes==3.4.0
 jaraco.context==6.0.1
 jaraco.functools==4.1.0
 jedi==0.19.2
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
 jupyter_client==8.6.3
 jupyter_core==5.7.2
 keyring==25.6.0
@@ -53,6 +58,7 @@ matplotlib-inline==0.1.7
 more-itertools==10.6.0
 msgpack==1.1.0
 narwhals==1.31.0
+nbformat==5.10.4
 nest-asyncio==1.6.0
 netCDF4==1.7.2
 networkx==3.4.2
@@ -60,6 +66,7 @@ numexpr==2.10.2
 numpy==1.26.4
 packaging==24.2
 pandas==2.2.3
+pandas-stubs==2.2.3.250308
 parso==0.8.4
 partd==1.4.2
 pbs-installer==2025.3.17
@@ -74,6 +81,7 @@ polars==1.25.2
 prompt_toolkit==3.0.50
 psutil==7.0.0
 pure_eval==0.2.3
+pycparser==2.22
 Pygments==2.19.1
 pyogrio==0.10.0
 pyparsing==3.2.1
@@ -89,8 +97,10 @@ pywin32-ctypes==0.2.3
 PyYAML==6.0.2
 pyzmq==26.3.0
 RapidFuzz==3.12.2
+referencing==0.36.2
 requests==2.32.3
 requests-toolbelt==1.0.0
+rpds-py==0.24.0
 scipy==1.15.2
 shapely==2.0.7
 shellingham==1.5.4
@@ -103,6 +113,20 @@ tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
 trove-classifiers==2025.3.19.19
+types-colorama==0.4.15.20240311
+types-decorator==5.2.0.20250324
+types-defusedxml==0.7.0.20240218
+types-docutils==0.21.0.20241128
+types-gevent==24.11.0.20250401
+types-greenlet==3.1.0.20250401
+types-networkx==3.4.2.20250319
+types-paramiko==3.5.0.20240928
+types-psutil==7.0.0.20250401
+types-Pygments==2.19.0.20250305
+types-pytz==2025.2.0.20250326
+types-PyYAML==6.0.12.20250402
+types-requests==2.32.0.20250328
+types-tqdm==4.67.0.20250401
 typing_extensions==4.12.2
 tzdata==2025.1
 urllib3==2.3.0
